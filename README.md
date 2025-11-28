@@ -38,7 +38,7 @@ A comprehensive, AI-powered travel planning application built with Next.js 16. T
   - Configurable buffer times for each stop.
   - AI-powered route optimization to minimize travel time.
 - **AI Travel Assistant**:
-  - Integration with **Google Gemini** and **OpenAI** for intelligent travel advice.
+  - Integration with **Google Gemini**, **OpenAI**, **OpenRouter** and **Custom Endpoints** for intelligent travel advice.
   - Generates packing lists, local tips, and weather-aware recommendations.
 - **Timezone Management**: Smart handling of origin and destination timezones for accurate scheduling.
 - **Customizable Settings**:
@@ -59,6 +59,8 @@ A comprehensive, AI-powered travel planning application built with Next.js 16. T
 - **AI Integration**:
   - `@google/generative-ai` (Gemini)
   - `openai`
+  - `openrouter`
+  - 'custom endpoints'
 - **Utilities**: `axios`, `date-fns`, `geo-tz`
 
 ## 📂 Project Structure
@@ -83,14 +85,14 @@ smart-journey-planner/
 ### Prerequisites
 
 - Node.js 18+ installed.
-- API Keys for the services you intend to use (Google Maps, Mapbox, OpenAI/Gemini).
+- API Keys for the services you intend to use (Google Maps, Mapbox, OpenAI/Gemini/OpenRouter/Custom Endpoints).
 
 ### Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/smart-journey-planner.git
-    cd smart-journey-planner
+    git clone https://github.com/febyferdinan/smart-journey-planner-1.git
+    cd smart-journey-planner-1
     ```
 
 2.  **Install dependencies:**
