@@ -60,13 +60,13 @@ A comprehensive, AI-powered travel planning application built with Next.js 16. T
   - `@google/generative-ai` (Gemini)
   - `openai`
   - `openrouter`
-  - 'custom endpoints'
+  - `custom-endpoint`
 - **Utilities**: `axios`, `date-fns`, `geo-tz`
 
 ## 📂 Project Structure
 
 ```
-smart-journey-planner/
+smart-journey-planner-1/
 ├── app/                  # Next.js App Router pages and API routes
 │   ├── api/              # Backend API routes (Google Maps, AI, etc.)
 │   ├── components/       # React components (Inputs, Map, Settings, etc.)
@@ -178,4 +178,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Feby Ferdinan Syah - febyferdinan@gmail.com
 
-Project Link: [https://github.com/febyferdinan/smart-journey-planner](https://github.com/febyferdinan/smart-journey-planner)
+Project Link: [https://github.com/febyferdinan/smart-journey-planner-1](https://github.com/febyferdinan/smart-journey-planner-1)
