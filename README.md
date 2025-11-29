@@ -11,6 +11,26 @@ A comprehensive, AI-powered travel planning application built with Next.js 16. T
 <!-- ![Smart Journey Planner Screenshot](public/screenshot.png) -->
 <!-- *You might want to add a screenshot here later* -->
 
+## 🌐 Live Demo
+
+**Demo URL**: [https://smart-journey-planner-1.vercel.app/](https://smart-journey-planner-1.vercel.app/)
+
+### 🔑 Important Notes for Demo Usage:
+
+1. **Google Maps API Key Required**: To run the demo and display maps, you must provide your own Google Maps API key through the Settings page.
+
+2. **AI Chatbot API Key Required**: To use the AI chatbot features, you need to provide an API key and Model name for one of the following providers:
+   - **Google Gemini**
+   - **OpenAI**
+   - **OpenRouter**
+
+3. **Custom Endpoint Support**: If you want to use a custom AI endpoint, you can configure it in the chatbot settings page by providing:
+   - Your custom API base URL
+   - Your model name
+   - Your custom API key
+
+> 💡 **Tip**: All API keys can be configured directly in the Settings page and are stored securely in your browser's local storage.
+
 ## 📋 Table of Contents
 
 - [Features](#-features)
